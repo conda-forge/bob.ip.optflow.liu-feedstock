@@ -12,9 +12,8 @@ source:
 build:
   entry_points:
     - bob_of_liu.py = bob.ip.optflow.liu.script.flow:main
-  number: 1
+  number: 2
   skip: true  # [win]
-  script: python -B setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
