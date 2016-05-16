@@ -26,6 +26,7 @@ requirements:
     - bob.io.image
     - bob.io.video
     - bob.ip.color
+    - pkg-config
 
   run:
     - python
