@@ -19,7 +19,8 @@ requirements:
   build:
     - python
     - setuptools
-    - libpng 1.6*
+    # do not pin libpng it is not a direct dependency
+    - libpng
     - bob.extension
     - bob.blitz
     - bob.io.base
@@ -30,7 +31,8 @@ requirements:
 
   run:
     - python
-    - libpng 1.6*
+    # do not pin libpng it is not a direct dependency
+    - libpng
     - bob.extension
     - bob.blitz
     - bob.io.base
