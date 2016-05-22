@@ -19,8 +19,6 @@ requirements:
   build:
     - python
     - setuptools
-    # do not pin libpng it is not a direct dependency
-    - libpng
     - bob.extension
     - bob.blitz
     - bob.io.base
@@ -28,17 +26,21 @@ requirements:
     - bob.io.video
     - bob.ip.color
     - pkg-config
+    - libblitz
+    # do not pin libpng it is not a direct dependency
+    - libpng
 
   run:
     - python
-    # do not pin libpng it is not a direct dependency
-    - libpng
     - bob.extension
     - bob.blitz
     - bob.io.base
     - bob.io.image
     - bob.io.video
     - bob.ip.color
+    - libblitz
+    # do not pin libpng it is not a direct dependency
+    - libpng
 
 test:
   commands:
