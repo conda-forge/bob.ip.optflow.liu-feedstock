@@ -26,6 +26,8 @@ requirements:
     - bob.io.image
     - bob.io.video
     - bob.ip.color
+    # libpng is not a direct dependency, this is added here as a temporary solution
+    - libpng 1.6.21*
     - pkg-config
 
   run:
@@ -36,6 +38,8 @@ requirements:
     - bob.io.image
     - bob.io.video
     - bob.ip.color
+    # libpng is not a direct dependency, this is added here as a temporary solution
+    - libpng 1.6.21*
 
 test:
   commands:
